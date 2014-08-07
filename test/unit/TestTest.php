@@ -32,7 +32,7 @@ class TestTest extends TestCase
     public function testExecuteInvokesCallableWithArguments()
     {
         $fn = function ($a, $b) {
-            $this->assertEquals('foo1', $a);
+            $this->assertEquals('foo', $a);
             $this->assertEquals('bar', $b);
         };
 
