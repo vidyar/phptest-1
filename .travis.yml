@@ -13,7 +13,7 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 script:
-  - ./vendor/bin/phpunit -c phpunit-all.xml --log-junit shippable/testresults/junit.xml
+  - ./vendor/bin/phpunit -c phpunit --log-junit shippable/testresults/junit.xml
  # -  phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage test/
 
 notifications:
