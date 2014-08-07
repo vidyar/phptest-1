@@ -13,3 +13,9 @@ before_script:
 
 script:
   - ./vendor/bin/phpunit
+notifications:
+     email:
+         recipients:
+             - vidya@shippable.com
+         on_success: change
+         on_failure: always
