@@ -15,4 +15,4 @@ before_script:
 script:
   - ./vendor/bin/phpunit 
  # -  phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage test/unit/
-  - phpunit --log-junit shippable/testresults/junit.xml --coverage-html shippable/html --coverage-xml shippable/codecoverage --configuration test/unit/
+  - phpunit --log-junit shippable/testresults/junit.xml --coverage-html shippable/html --coverage-xml shippable/codecoverage  test/unit/
