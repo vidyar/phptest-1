@@ -16,3 +16,12 @@ script:
  # - ./vendor/bin/phpunit 
   -  phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage test/unit/
 
+notifications:
+  email: 
+   recipients:
+          - vidya@shippable.com
+         # - exampletwo@org.com
+   on_success: always
+   on_failure: always
+    
+archive: true
