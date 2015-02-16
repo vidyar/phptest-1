@@ -25,5 +25,7 @@ notifications:
    on_failure: always
     
 archive: true
+
 #cache: true
+
 build_image: shippable/minv2
